@@ -183,13 +183,13 @@
 		})
 
 		local MiscTab= Window:MakeTab({
-			Name = "额外的",
+			Name = "额外的功能",
 			Icon = "rbxassetid://4483345998",
 			PremiumOnly = false
 		})
 
 		local ESPTab = Window:MakeTab({
-			Name =  "定位",
+			Name =  "定位功能",
 			Icon = "rbxassetid://4483345998",
 			PremiumOnly = false
 		})
@@ -217,7 +217,7 @@
 		})
 
 		MainTab:AddToggle({
-			Name = "自动金钱",
+			Name = "自动金钱(可以瞬移救人)",
 			Default = false,
 			Callback = function(Value)
 				Settings.moneyfarm = Value
@@ -225,7 +225,7 @@
 		})
 
 		MainTab:AddToggle({
-			Name = "自动挂机(可以瞬移救人)",
+			Name = "自动挂机",
 			Default = false,
 			Callback = function(Value)
 				Settings.afkfarm = Value
