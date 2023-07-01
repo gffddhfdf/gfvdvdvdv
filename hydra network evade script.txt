@@ -18,7 +18,7 @@
 			Image = "rbxassetid://4483345998",
 			Time = 2
 		})
-		local Window = OrionLib:MakeWindow({Name = "HydraNetwork|evade|赫赫汉化(给我关注赫赫！)", HidePremium = false,IntroText = "Evade V2.6(赫赫汉化作者不知道是谁)", SaveConfig = false, ConfigFolder = "OrionTest"})
+		local Window = OrionLib:MakeWindow({Name = "HydraNetwork赫赫汉化(给我关注赫赫！)", HidePremium = false,IntroText = "Evade V2.6(赫赫汉化作者不知道是谁)", SaveConfig = false, ConfigFolder = "OrionTest"})
 
 		--functions and shit
 		getgenv().money = true
