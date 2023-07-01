@@ -169,7 +169,7 @@
 		function RandomEmote()
 			OrionLib:MakeNotification({
 				Name = "随机表情...",
-				Content = "你按下随机表情时",
+				Content = "你已按下随机表情按键",
 				Image = "rbxassetid://4483345998",
 				Time = 5
 			})
